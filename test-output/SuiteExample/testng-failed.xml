@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [SuiteExample]">
+  <test name="Testtry(failed)">
+    <classes>
+      <class name="testNG.AssertGmail">
+        <methods>
+          <include name="verifyEmailIDBoxText"/>
+          <include name="preconditon"/>
+          <include name="postCondition"/>
+        </methods>
+      </class> <!-- testNG.AssertGmail -->
+      <class name="testNG.AssertNotIRCTC">
+        <methods>
+          <include name="preCondition"/>
+          <include name="postCondition"/>
+        </methods>
+      </class> <!-- testNG.AssertNotIRCTC -->
+      <class name="testNG.TestMethods">
+        <methods>
+          <include name="postCondition"/>
+          <include name="preCondition"/>
+        </methods>
+      </class> <!-- testNG.TestMethods -->
+    </classes>
+  </test> <!-- Testtry(failed) -->
+</suite> <!-- Failed suite [SuiteExample] -->
